@@ -393,13 +393,31 @@ footer button:hover{
  footer .button .linha:hover{
   box-shadow:inset red 150px 0px;
  }
- footer .footer-botoes .button-footer1 h3{
+ footer .button-footer1 h3{
    width:77% ;
+   height: 23%;
+   border: solid gray;
+
  }
+ footer .button-footer2 h3{
+    width:77% ;
+    height: 23%;
+    border: solid gray;
+    margin-left: 2vw;
+ 
+  }
+  footer .button-footer3 h3{
+    width:77% ;
+    height: 23%;
+    border: solid gray;
+    margin-left: 2vw;
+ 
+  }
  footer h3{
    text-align: center;
    padding-bottom: 4vh;
    border: solid black;
+   width: 40%;
  }
  footer p{
    text-align: center;
@@ -627,12 +645,14 @@ width: 50px;
    top: 8vh;
    font-size: 22px;
    margin-right: -24vh;
-   border: solid black;
+
  }
 
  main .atributos{
    position: relative;
   top: 14vh;
+  left: 5vw;
+  border: solid red;
  
  }
  .forca img{
@@ -647,7 +667,9 @@ width: 50px;
    display: flex;
    flex-direction: row;
    border: solid rgb(115, 128, 0);
-
+ }
+ .att{
+     display: none;
  }
  main .storm img{
      position: absolute;
@@ -663,18 +685,31 @@ main .storm .normas{
   top: 126vh;
   right: 48vw;
   font-size: 13px;
+  border: solid black;
 }
 footer .imagen-footer{
   position: relative;
   width: 70%;
-  top: 374vh;
+  top: 368vh;
   left: -27vw;
+  border: solid black;
 }
 footer .footer-botoes{
+    border: solid;
   display: flex;
 flex-direction: column;
 top: 370vh;
-width: 62%;
+width: 52%;
+height: 40%;
+left: 29vw;
+}
+footer h3{
+    width: 50%;
+    height: 20%;
+    margin-left: 10vw;
+}
+footer .baixe3{
+    width: 90%;
 }
 .footer-botoes button{
 width: 100%;
@@ -685,6 +720,9 @@ footer .button-footer1 button{
 footer .button-footer1{
   margin-left: 12vw;
 }
+footer .button-footer1 h3{
+    margin-left: 13vw;
+}
 footer .footer-botoes .baixe3{
   width: 170%;
 }
@@ -693,6 +731,9 @@ footer .footer-botoes .linha{
 }
 p{
   border: solid #707070;
+}
+footer .footer-botoes p{
+    width: 40%;
 }
 
 
