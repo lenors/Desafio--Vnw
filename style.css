@@ -263,7 +263,22 @@ position: absolute;
 top: 93vh;
 left: 12.5vh;
 }
-.att{
+.att1{
+  position: absolute;
+border: solid rosybrown;
+ height: 300px;
+width: 400px;
+background-color: red;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+left: 105vh;
+top: 33vh;
+opacity: 0;
+transition: 1s;
+z-index: 1;
+}
+.att2{
   position: absolute;
   border: solid rosybrown;
  height: 250px;
@@ -275,7 +290,6 @@ justify-content: space-around;
 left: 55vh;
 opacity: 0;
 transition: 1s;
-
 }
 .bordacima{
     border-top:3px solid white;
@@ -360,13 +374,11 @@ border: solid black;
  font-size: 25px;
   left: 32vw;
   border: solid  yellow;
-  height: 24vh;
+  height: 26vh;
   border: solid black;
  }
  footer .footer-botoes p{
-   font-size: 22px;
-   border: solid red ;
-   width: 30%;
+  
  }
 footer button{
   position:relative;
@@ -397,15 +409,48 @@ footer button:hover{
    width:77% ;
    height: 23%;
    border: solid gray;
-
+   
  }
+ 
+ footer .button-footer3 .h3{
+   margin-left: 22vw;
+ }
+ /* classe dos botões */
+ footer .button-footer1 button{
+   font-size: 22px;
+   font-weight: bold;
+ }
+ footer .button-footer2 button{
+  font-size: 22px;
+  font-weight: bold;
+}
+footer .button-footer3 button{
+  font-size: 22px;
+  font-weight: bold;
+}
+/* aqui termina os buttos */
  footer .button-footer2 h3{
     width:77% ;
     height: 23%;
     border: solid gray;
-    margin-left: 2vw;
+    margin-left: 1.5vw;
  
   }
+  footer .button-footer1 .baixe3{
+  font-size: 15px;
+
+  } 
+  footer .button-footer2 .selecione2{
+    margin-left: 2vw;
+    font-size: 15px;
+  } 
+  footer .button-footer3 .conquiste2{
+    margin-left: 3vw;
+    font-size: 15px;
+  }
+  footer .footer-botoes .linha{
+    margin-left: 2vw;
+  } 
   footer .button-footer3 h3{
     width:77% ;
     height: 23%;
@@ -698,7 +743,7 @@ footer .footer-botoes{
     border: solid;
   display: flex;
 flex-direction: column;
-top: 370vh;
+top: 383vh;
 width: 52%;
 height: 40%;
 left: 29vw;
@@ -724,16 +769,42 @@ footer .button-footer1 h3{
     margin-left: 13vw;
 }
 footer .footer-botoes .baixe3{
-  width: 170%;
+  width: 190%;
+
+}
+footer .button-footer1 h2{
+  width: 50%;
+  margin-left: 10vw;
 }
 footer .footer-botoes .linha{
-  width: 20%;
+  width: 30%;
+  margin-left: 10vw;
 }
-p{
-  border: solid #707070;
+footer .button-footer2{
+  margin-top: -3vh;
 }
-footer .footer-botoes p{
-    width: 40%;
+/* fonte botões numeros */
+footer .button-footer1 h3{
+  font-size: 20px;
+}
+footer .button-footer2 h3{
+  font-size: 20px;
+}
+footer .button-footer3 h3{
+  font-size: 20px;
+}
+/* } aqui termina */
+footer .button-footer1 h3{
+ 
+}
+footer .button-footer1 button{
+height: 4vh;
+font-size: 20px;
+}
+footer .button-footer1 .baixe3{
+   margin-left: 6vw;
+   margin-top: -1.5vh;
+    font-size: 14px;
 }
 
 
