@@ -74,7 +74,7 @@ h2 {
   top: 105vh;
   right: 65%;
   color: white;
-  border: solid rgb(204, 12, 12);
+ 
   z-index: 4;
 }
 .download {
@@ -84,7 +84,7 @@ h2 {
   top: 126vh; 
   padding: 9px 25px;
   background-color: transparent;
-  border: 2px solid white;
+
   border-radius: 4px;
   color: white;
 }
@@ -110,7 +110,7 @@ a:hover {
 }
 .linha {
   position: relative;
-  border: solid 2px rgb(0, 0, 0);
+
   top: 1vw;
   width: 250px;
   left: 7.7vw;
@@ -126,7 +126,7 @@ a:hover {
   position: absolute;
   display: flex;
   margin-top: 4vw;
-  border: solid red;
+ 
   left:1vw;
 }
 .battle2 {
@@ -147,7 +147,7 @@ a:hover {
 .linha2 {
   position: relative;
   bottom: 127.2vw;
-  border: 2px solid #707070;
+ 
   height: 1px;
   width: 74.5vw;
   left: 14vw;
@@ -196,7 +196,6 @@ span {
   font-size: 32px;
   text-align: right;
   font-weight: 200;
-  border: solid red;
   z-index: 1;
 }
 .estrutura .rey img{
@@ -219,7 +218,7 @@ span {
 main {
   position: absolute;
   background: #2d2d2d;
-  border: solid red;
+ 
   top: 217vh;
   height: 120vw;
   width: 100%;
@@ -229,7 +228,7 @@ main h3 {
   color: white;
   top: 3%;
   right: 75%;
-  border: solid;
+
   font-size: 45px;
   font-weight: 800;
 }
@@ -242,7 +241,6 @@ main .atributos {
   left: 6vw;
 }
 .forca {
-  border: solid seagreen;
   width: 50%;
 }
 .animation img {
@@ -251,7 +249,6 @@ main .atributos {
 .animation {
   display: flex;
   flex-wrap: wrap;
-  border: solid pink;
   height: 54vh;
   width: 60%;
 }
@@ -263,9 +260,8 @@ position: absolute;
 top: 93vh;
 left: 12.5vh;
 }
-.att1{
+/* .att1{
   position: absolute;
-border: solid rosybrown;
  height: 300px;
 width: 400px;
 background-color: red;
@@ -280,7 +276,6 @@ z-index: 1;
 }
 .att2{
   position: absolute;
-  border: solid rosybrown;
  height: 250px;
 width: 350px;
 background-color: red;
@@ -289,8 +284,8 @@ flex-direction: column;
 justify-content: space-around;
 left: 55vh;
 opacity: 0;
-transition: 1s;
-}
+transition: 1s; */
+
 .bordacima{
     border-top:3px solid white;
     border-left:3px solid white;
@@ -317,7 +312,7 @@ main .normas{
   margin-left: 48vw;
   opacity: 2;
   color: white;
-  border: solid pink;
+
 }
 .att:hover{
   opacity: 1;
@@ -332,13 +327,17 @@ main .normas{
   align-items: center;
  top: 225vh;
 }
+footer{
+  width: 100%;
+ 
+}
 footer .footer-botoes .linha{
   position: relative;
   width: 100px;
   left: 1vw;
 }
 .button-footer{
-  border: solid green;
+
 }
 footer .footer-botoes .button-footer1{
   width: 30%;
@@ -362,31 +361,26 @@ footer .button-footer3{
 padding-left: 13vw;
 }
  footer .imagen-footer{
-   position: absolute;
-  border: solid red ;
+position: absolute;
+ 
   top: 420vh;
   left: 4vw;
-border: solid black;
+
  }
  footer .footer-botoes{
   position: absolute;
   display: flex;
  font-size: 25px;
   left: 32vw;
-  border: solid  yellow;
   height: 26vh;
-  border: solid black;
- }
- footer .footer-botoes p{
-  
- }
+  }
 footer button{
   position:relative;
   width:12vw;
   height:7vh;
   color: white;
   background-color:black;
-  border: solid;
+  
   transition:ease-in-out 1s;
 }
 footer button:hover{
@@ -408,7 +402,7 @@ footer button:hover{
  footer .button-footer1 h3{
    width:77% ;
    height: 23%;
-   border: solid gray;
+  
    
  }
  
@@ -454,14 +448,14 @@ footer .button-footer3 button{
   footer .button-footer3 h3{
     width:77% ;
     height: 23%;
-    border: solid gray;
+
     margin-left: 2vw;
  
   }
  footer h3{
    text-align: center;
    padding-bottom: 4vh;
-   border: solid black;
+
    width: 40%;
  }
  footer p{
@@ -471,12 +465,78 @@ footer .button-footer3 button{
 
  }
 
+ .red-footer{
+   position: relative;
+   top: 52vh;
+ 
+   height: 500px;
+ }
+ 
+ .red-footer .dart{
+  
+   position: relative;
+   bottom: 222vh;
+ }
+.red-footer .dart img{
+  position: relative;
+  width: 40%;
+  margin-left: 53vw;
+  top: 117vh;
+}
+.red-footer .app-texto{
+  font-size: 65px;
+  position: relative;
+  bottom: 82vh;
+  font-weight: 800;
+  margin-left: 5vh;
+  color: white;
+}
 
+.red-footer .app-texto2{
+  position: relative;
+  width: 35%;
+  font-size: 22px;
+text-align: initial;
+bottom: 75vh;
+margin-left: 12vw;
+color: white;
+border: none;
+}
 
+.red-footer .lojas{
+  position: relative;
+  display: flex;
+  bottom: 150vh;
+  margin-left: 12vw;
+}
 
-
-
-
+.red-footer  .linha6{
+  position: relative;
+  width: 27%;
+  border: solid 2px #d14141;
+  bottom: 61vh;
+  margin-left: 12vw;
+}
+.red-footer .staruo{
+  position: relative;
+ 
+  bottom: 143vh;
+  margin-left: 12vw;
+}
+.red-footer .aplicativo{
+  
+  width: 100%;
+  height: 900px;
+  
+}
+.red-footer .politicas{
+  position: relative;
+  width: 20%;
+  bottom: 140vh;
+  margin-left: 12vw;
+  color: white;
+  border: none;
+}
 
 
 
@@ -601,7 +661,7 @@ width: 50px;
     width:255px;
     bottom: 27.5vh;
     right:-12vw;
-    border: solid pink;
+
     
   } 
    .battle .sobre{
@@ -670,7 +730,7 @@ width: 50px;
     margin-left: 1vw;
     width: 150px;
     height: 220px;
-    border: solid salmon;
+
   }
   .estrutura .rey img{
    position: relative;
@@ -730,14 +790,14 @@ main .storm .normas{
   top: 126vh;
   right: 48vw;
   font-size: 13px;
-  border: solid black;
+
 }
 footer .imagen-footer{
   position: relative;
   width: 70%;
   top: 368vh;
   left: -27vw;
-  border: solid black;
+
 }
 footer .footer-botoes{
     border: solid;
